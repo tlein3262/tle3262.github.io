@@ -280,15 +280,14 @@
 
     <script>
         const photos = [
-    { src: "https://tlein3262.github.io/tle3262.github.io/docs/img3.jpg", caption: "ความทรงจำของเรา 1" },
-    { src: "https://tlein3262.github.io/tle3262.github.io/docs/img2.jpg", caption: "ความทรงจำของเรา 2" },
-    { src: "https://tlein3262.github.io/tle3262.github.io/docs/img4.jpg", caption: "ความทรงจำของเรา 3" },
-    { src: "https://tlein3262.github.io/tle3262.github.io/docs/img5.jpg", caption: "ความทรงจำของเรา 4" },
-    { src: "https://tlein3262.github.io/tle3262.github.io/docs/img6.jpg", caption: "ความทรงจำของเรา 5" },
-    { src: "https://tlein3262.github.io/tle3262.github.io/docs/img7.jpg", caption: "ความทรงจำของเรา 6" },
-    { src: "https://tlein3262.github.io/tle3262.github.io/docs/img1.jpg", caption: "ความทรงจำของเรา 7" },
-    { src: "https://tlein3262.github.io/tle3262.github.io/docs/img8.jpg", caption: "ความทรงจำของเรา 8" }
-
+            { src: "/docs/img3.jpg", caption: "ความทรงจำของเรา 1" },
+            { src: "/docs/img2.jpg", caption: "ความทรงจำของเรา 2" },
+            { src: "/docs/img4.jpg", caption: "ความทรงจำของเรา 3" },
+            { src: "/docs/img5.jpg", caption: "ความทรงจำของเรา 4" },
+            { src: "/docs/img6.jpg", caption: "ความทรงจำของเรา 5" },
+            { src: "/docs/img7.jpg", caption: "ความทรงจำของเรา 6" },
+            { src: "/docs/img1.jpg", caption: "ความทรงจำของเรา 7" },
+            { src: "/docs/img8.jpg", caption: "ความทรงจำของเรา 8" }
         ];
 
         function createPhotoFrame(photo, index) {
