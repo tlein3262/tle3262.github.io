@@ -423,17 +423,6 @@
 
         // เริ่มสร้างอิโมจิทุกๆ 1 วินาที
         setInterval(createFloatingEmoji, 1000);
-
-        function createPhotoFrame(photo, index) {
-    const frame = document.createElement('div');
-    frame.className = 'photo-frame';
-    frame.innerHTML = `
-        <img src="${photo.src}" alt="Photo ${index + 1}" 
-            onerror="this.onerror=null; this.src='https://via.placeholder.com/400x300?text=Image+Not+Found'">
-        <p class="photo-caption">${photo.caption}</p>
-    `;
-    return frame;
-}
     </script>
 </body>
 
